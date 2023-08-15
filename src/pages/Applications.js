@@ -3,10 +3,10 @@ import { DeadlineList } from "../helpers/DeadlineList";
 import DateItem from "../components/DateItem";
 import "../styles/Date.css";
 
-function DeadLines() {
+function Applications() {
   return (
     <div className="date">
-        <h1 className="dateTime">DeadLines for Universites</h1>
+        <h1 className="dateTime">Applications for Universites</h1>
         {/* <div className="datelist">
             {DeadlineList.map((dateItem,key)=>{
             return(
@@ -24,7 +24,8 @@ function DeadLines() {
                 <tr>
                     <th>College Name</th>
                     <th>Course</th>
-                    <th>DeadLine</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
                 </tr>
                 {DeadlineList.map((dateItem, key) => {
                     return (
@@ -32,6 +33,7 @@ function DeadLines() {
                         
                             <td>{dateItem.name}</td>
                             <td>{dateItem.course}</td>
+                            <td>{dateItem.startLine}</td>
                             <td>{dateItem.deadLine}</td>
                             
                         </tr>
@@ -47,4 +49,4 @@ function DeadLines() {
 
 
 
-export default DeadLines;
+export default Applications;

@@ -6,7 +6,7 @@ import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import DeadLines from "./pages/DeadLines";
+import Applications from "./pages/Applications";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/menu" exact component={Menu} />
           <Route path="/about" exact component={About} />
-          <Route path="/deadlines" exact component={DeadLines} />
+          <Route path="/applications" exact component={Applications} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
         <Footer />

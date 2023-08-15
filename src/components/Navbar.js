@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
           <Link to="/about"> About </Link>
-          <Link to="/deadlines"> DeadLines </Link>
+          <Link to="/applications"> Applications </Link>
           <Link to="/contact"> Contact </Link>
         </div>
       </div>
@@ -26,7 +26,7 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/menu"> Menu </Link>
         <Link to="/about"> About </Link>
-        <Link to="/deadlines"> DeadLines </Link>
+        <Link to="/applications"> Applications </Link>
         <Link to="/contact"> Contact </Link>
         
         <button onClick={toggleNavbar}>
